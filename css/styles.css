@@ -1112,6 +1112,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 16px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 192px;
 }
 .kukura {
     display: flex; 
@@ -1156,5 +1157,41 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         align-items: center;
         gap: 24px;  
         flex-wrap: wrap;
+    }
+    .strate {
+        color: var(--NAVY-BLUE, #2E2F42);
+
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+    }
+    .identify {
+        color: var(--SLATE, #434455);
+
+/* Body Medium */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+margin-bottom: 72px;
+    }
+    .liszka {
+        width: 264px;
+        height: 428px;
+        margin-bottom: 72px;
+        /* margin-left: 108px; */
+    }
+    .opys {
+        display: flex;
+        gap: 24px;
+        border-radius: 0px 0px 4px 4px;
+        justify-content: center;
     }
 }

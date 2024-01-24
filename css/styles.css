@@ -117,6 +117,7 @@ gap: 16px;
     border-radius: 50%;
 }
 .heror {
+    
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peo.jpg);
     width: auto;
     height: 600px;
@@ -125,7 +126,7 @@ gap: 16px;
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    /* max-width: 1440px; */
+     /* max-width: 1440px; */
     background-position: center;
 }
 ul, ol {
@@ -1286,18 +1287,20 @@ margin-bottom: 72px;
                     /* padding: 120px 0;
                     margin: 0 156px; */
                     width: 288px;
-                    height: 696px;
+                    height: 888px;
                     margin-left: 16px;
                 }
                 
                 .ouch {
                     /* width: calc((100% - 72px) / 4); */
+                    /* margin-top: 200px; */
+                    /* padding-top: 200px; */
                 }
                 .flex {
                     display: flex;
                     flex-wrap: wrap;
                     gap: 72px;
-                    margin-top: 296px;
+                    margin-top: 450px;
                 }
                 .strate {
                     display: flex;
@@ -1337,6 +1340,33 @@ height: 280px;
                     width: 288px;
                     transition: 0;
                 }
+
+.name {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.heror {
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peo.jpg);
+    width: auto;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* max-width: 1440px; */
+    background-position: center;
+}
                 }
 
 @media screen and (min-width: 1158px) {
@@ -1459,16 +1489,20 @@ height: 280px;
         border-radius: 50%;
     }
     .heror {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peo.jpg);
-        width: auto;
         height: 600px;
+        flex-shrink: 0;
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
         /* justify-content: center; */
         align-items: center;
-        /* max-width: 1440px; */
+        max-width: 1158px; 
         background-position: center;
+        margin: 0 auto; 
     }
     ul, ol {
         margin-top: 0;
@@ -1491,7 +1525,6 @@ height: 280px;
             align-items: center;
             width: 1158px;
             justify-content: space-between;
-    
         }
     body {
         font-family: "Roboto", sans-serif;

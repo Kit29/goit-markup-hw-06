@@ -1122,6 +1122,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: none;
 }
 .perevagy {
+    width: 768px;
+    height: 504px;
     padding: 96px 0;
     margin: 0 16px;
     display: flex;
@@ -1211,7 +1213,7 @@ margin-bottom: 72px;
     .omega {
         background: var(--NAVY-BLUE, #2E2F42);
         padding: 100px 0;
-        width: 768px;
+        /* width: 768px; */
         height: 456px;
         flex-shrink: 0;
     }
@@ -1237,7 +1239,9 @@ margin-bottom: 72px;
         flex-wrap: wrap;
         gap: 24px;
     }
-
+.burger {
+    display: none;
+}
 }
 @media (min-width: 320px) and (max-width: 767.98px) {
     .container { 
@@ -1271,6 +1275,8 @@ margin-bottom: 72px;
         }
         .opys {
             display: flex;
+            align-items: center;
+            justify-content: center;
             gap: 24px;
             border-radius: 0px 0px 4px 4px;
             flex-direction: column;
@@ -1348,7 +1354,7 @@ margin-bottom: 72px;
                 .photos {
                     
                     width: 288px;
-height: 280px;
+                    height: 280px;
 
                 }
                 .avrora {
@@ -1427,6 +1433,44 @@ margin-bottom: 40px;
 .header-menu-list {
     margin-bottom: 168px;
 }
+.formating {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.divon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+}
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 72px;
+}
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.opys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+    border-radius: 0px 0px 4px 4px;
+    flex-direction: column;
+}
 }
 
 @media screen and (min-width: 1158px) {
@@ -1443,6 +1487,9 @@ margin-bottom: 40px;
         margin-bottom: 0;
         display: block;
         list-style: none; 
+    }
+    .burger {
+        display: none;
     }
     .web-studio {
         gap: 24px;

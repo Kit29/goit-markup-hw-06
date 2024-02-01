@@ -1027,7 +1027,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.04em; 
     color: #8e8f99;
 }
-.wrapper-span {
+.wrapper-span
+ { 
     display: inline-flex; 
     justify-content: center; 
     align-items: center; 
@@ -1244,14 +1245,63 @@ margin-bottom: 72px;
 .burger {
     display: none;
 }
-
     .iron {
-      background-image: linear-gradient(
-          rgba(17, 17, 17, 0.3),
-          rgba(17, 17, 17, 0.3)
-        ),
-        url(./images/tablet/img.jpg);
-    }
+        background-image: linear-gradient(
+            rgba(17, 17, 17, 0.3),
+            rgba(17, 17, 17, 0.3)
+          ),
+        url(../images/tablet/img.jpg);
+        width: 356px;
+        height: 300px;
+      }
+      .factum {
+        background-image: linear-gradient(
+            rgba(17, 17, 17, 0.3),
+            rgba(17, 17, 17, 0.3)
+          ),
+        url(../images/tablet/img-1.jpg);
+        width: 356px;
+        height: 300px;
+      }
+      .friends {
+        background-image: linear-gradient(
+            rgba(17, 17, 17, 0.3),
+            rgba(17, 17, 17, 0.3)
+          ),
+        url(../images/tablet/img-2.jpg);
+        width: 356px;
+        height: 300px;
+      }
+      .lenovo {
+        background-image: linear-gradient(
+            rgba(17, 17, 17, 0.3),
+            rgba(17, 17, 17, 0.3)
+          ),
+        url(../images/tablet/img-3.jpg);
+        width: 356px;
+        height: 300px;
+      }
+      .html {
+        background-image: linear-gradient(
+            rgba(17, 17, 17, 0.3),
+            rgba(17, 17, 17, 0.3)
+          ),
+        url(../images/tablet/img-4.jpg);
+        width: 356px;
+        height: 300px;
+      }
+      .url {
+        background-image: linear-gradient(
+            rgba(17, 17, 17, 0.3),
+            rgba(17, 17, 17, 0.3)
+          ),
+        url(../images/tablet/img-5.jpg);
+        width: 356px;
+        height: 300px;
+      }
+      .gap {
+        width: 356px;
+      }
   }
 @media (min-width: 320px) and (max-width: 767.98px) {
     .container { 
@@ -1483,7 +1533,7 @@ margin-bottom: 40px;
     border-radius: 0px 0px 4px 4px;
     flex-direction: column;
 }
-.propositions {
+/* .propositions {
    background-image: linear-gradient(
         rgba(17, 17, 17, 0.3),
         rgba(17, 17, 17, 0.3)
@@ -1491,6 +1541,60 @@ margin-bottom: 40px;
       url(../images/mobile/img.jpg);
       width: 100%;
       height: auto;
+  } */
+  .iron {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.3),
+        rgba(17, 17, 17, 0.3)
+      ),
+    url(../images/mobile/img.jpg);
+    width: 100%;
+    height: auto;
+  }
+  .factum {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.3),
+        rgba(17, 17, 17, 0.3)
+      ),
+    url(../images/mobile/img-1.jpg);
+    width: 100%;
+    height: auto;
+  }
+  .friends {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.3),
+        rgba(17, 17, 17, 0.3)
+      ),
+    url(../images/mobile/img-2.jpg);
+    width: 100%;
+    height: auto;
+  }
+  .lenovo {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.3),
+        rgba(17, 17, 17, 0.3)
+      ),
+    url(../images/mobile/img-3.jpg);
+    width: 100%;
+    height: auto;
+  }
+  .html {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.3),
+        rgba(17, 17, 17, 0.3)
+      ),
+    url(../images/mobile/img-4.jpg);
+    width: 100%;
+    height: auto;
+  }
+  .url {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.3),
+        rgba(17, 17, 17, 0.3)
+      ),
+    url(../images/mobile/img-5.jpg);
+    width: 100%;
+    height: auto;
   }
 }
 

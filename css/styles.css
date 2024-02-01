@@ -1302,6 +1302,9 @@ margin-bottom: 72px;
       .gap {
         width: 356px;
       }
+      .overlay {
+        display: inline;
+      }
   }
 @media (min-width: 320px) and (max-width: 767.98px) {
     .container { 
@@ -1599,6 +1602,9 @@ margin-bottom: 40px;
 }
 
 @media screen and (min-width: 1158px) {
+    .overlay {
+        display: inline;
+    }
     .mob-menu {
         display: none;
     }

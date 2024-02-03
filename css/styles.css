@@ -309,14 +309,14 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .name {
     color: var(--WHITE, #FFF);
-text-align: center;
-line-height: 1.07;
-max-width: 496px;
-margin: 0 auto 48px;
-/* Header 1 */
-font-family: "Roboto", sans-serif;
-font-size: 56px;
-letter-spacing: 1.12px;
+    text-align: center;
+    line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto 48px;
+    /* Header 1 */
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    letter-spacing: 1.12px;
 }
 .button {
 background-color: #4D5AE5;
@@ -1313,6 +1313,19 @@ margin-bottom: 72px;
       .overlay {
         display: inline;
       }
+      .heror {
+    
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab.jpg);
+            width: auto;
+            /* height: 600px;  */
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+             /* max-width: 1440px; */
+            background-position: center;
+      }
   }
 @media (min-width: 320px) and (max-width: 767.98px) {
     .container { 
@@ -1438,30 +1451,14 @@ margin-bottom: 72px;
                 }
 
 .name {
-    color: var(--WHITE, #FFF);
-    text-align: center;
-    
-    /* Header 2 */
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
+    font-family: var(--font-family);
     font-weight: 700;
-    line-height: 40px; /* 111.111% */
-    letter-spacing: 0.72px;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
-}
-.heror {
-
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peo.jpg);
-    width: auto;
-    height: 600px;  
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    /* max-width: 1440px; */
-    background-position: center;
+    text-align: center;
+    color: var(--white, #fff);
 }
 .in-mob {
     background-color: none;
@@ -1688,22 +1685,13 @@ margin-bottom: 40px;
     .burger {
         display: flex;
         border: none;
-    }
-    .name {
-        font-family: var(--font-family);
-font-weight: 700;
-font-size: 36px;
-line-height: 111%;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-text-align: center;
-color: #fff;
+        background: transparent;
     }
     .heror {
     
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peo.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob.jpeg);
         width: auto;
-        /* height: 600px; */
+        height: 432px; 
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -1713,6 +1701,7 @@ color: #fff;
         background-position: center;
     }
 }
+
 
 @media screen and (min-width: 1158px) {
     .overlay {

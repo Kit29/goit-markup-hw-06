@@ -1312,9 +1312,7 @@ margin-bottom: 72px;
       .gap {
         width: 356px;
       }
-      .overlay {
-        display: inline;
-      }
+
       .heror {
     
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab.jpg);
@@ -1332,6 +1330,24 @@ margin-bottom: 72px;
         display: none;
         
     }
+ .overlay {
+    display: none;
+ }
+ .avrora:hover .overlay{
+    display: none;
+    /* transform: translateY(0); */
+}
+.avrora:hover {
+    /* s
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  */
+}
+.avrora {
+    width: 356px;
+}
+.portfolio {
+    align-items: center;
+    justify-content: center;
+}
   }
 @media (min-width: 320px) and (max-width: 767.98px) {
     .container { 
@@ -1705,6 +1721,20 @@ margin-bottom: 40px;
         align-items: center;
          /* max-width: 1440px; */
         background-position: center;
+    }
+    .overlay {
+        display: none;
+     }
+     .avrora:hover .overlay{
+        display: none;
+        /* transform: translateY(0); */
+    }
+    .avrora:hover {
+        /* s
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  */
+    }
+    .avrora {
+        width: 356px;
     }
 }
 

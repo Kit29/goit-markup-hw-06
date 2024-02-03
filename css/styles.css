@@ -1138,7 +1138,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 16px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 192px;
+    /* margin-bottom: 192px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -1326,10 +1326,6 @@ margin-bottom: 72px;
              /* max-width: 1440px; */
             background-position: center;
       }
-      .only-mobile {
-        display: none;
-        
-    }
  .overlay {
     display: none;
  }
@@ -1347,6 +1343,20 @@ margin-bottom: 72px;
 .portfolio {
     align-items: center;
     justify-content: center;
+}
+.disactive {
+    display: none;
+}
+.opys {
+    margin-left: auto;
+    margin-right: auto;
+    width: 552px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.perevagy {
+
 }
   }
 @media (min-width: 320px) and (max-width: 767.98px) {
@@ -1431,6 +1441,9 @@ margin-bottom: 72px;
                     display: flex;
                     flex-wrap: wrap;
                     gap: 72px;
+                    min-width: 288px;
+                    max-width: 288px;
+                    height: 696px;
                     /* margin-top: 450px; */
                 }
                 .strate {

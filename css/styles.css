@@ -1317,7 +1317,7 @@ margin-bottom: 72px;
     
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab.jpg);
             width: auto;
-            /* height: 600px;  */
+            height: 436px; 
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
@@ -1847,7 +1847,7 @@ margin-bottom: 40px;
         display: flex;
         /* justify-content: center; */
         align-items: center;
-        max-width: 1158px; 
+        max-width: 1440px; 
         background-position: center;
         margin: 0 auto; 
     }
@@ -2015,10 +2015,11 @@ margin-bottom: 40px;
         display: flex;
         align-items: center; 
         justify-content: center;
-        height: 112px;
         background-color: #f4f4fd; 
         border-radius: 4px;
         margin-bottom: 8px; 
+        width: 264px;
+        height: 112px;
     }
     .prettier {
         display: flex;
@@ -2095,6 +2096,8 @@ margin-bottom: 40px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        width: 264px;
+        height: 112px;
     }
     .team {
         background-color:var(--CLOUD, #F4F4FD);

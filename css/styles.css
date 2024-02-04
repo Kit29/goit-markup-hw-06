@@ -827,6 +827,16 @@ color: #ffffff;
 cursor: pointer;
 border: none;
 }
+.subscribe-form-button:focus {
+    display: flex;
+    border-radius: 4px;
+background: #404BBF;
+}
+.subscribe-form-button:hover {
+    display: flex;
+    border-radius: 4px;
+background: #404BBF;
+}
 .subscribe-input {
     width: 264px;
     height: 40px;
@@ -1924,6 +1934,16 @@ letter-spacing: 0.04em;
 text-align: center;
 color: #f4f4fd;
 }
+.subscribe-form-button:focus {
+    display: flex;
+    border-radius: 4px;
+background: #404BBF;
+}
+.subscribe-form-button:hover {
+    display: flex;
+    border-radius: 4px;
+background: #404BBF;
+}
 .port {
 font-weight: 700;
 font-size: 36px;
@@ -2345,6 +2365,12 @@ color: #4D5AE5;
         border-radius: 4px;
     background: var(--OCEAN, #404BBF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    }
+    button:hover {
+        border-radius: 4px;
+        background: var(--OCEAN, #404BBF);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        background-color: #404BBF;
     }
     .service:hover {
         background-color: #404BBF;
@@ -2825,6 +2851,16 @@ color: #4D5AE5;
     color: #ffffff;
     cursor: pointer;
     border: none;
+    }
+    .subscribe-form-button:hover {
+        display: flex;
+        border-radius: 4px;
+    background: #404BBF;
+    }
+    .subscribe-form-button:focus {
+        display: flex;
+        border-radius: 4px;
+    background: #404BBF;
     }
     .subscribe-input {
         width: 264px;

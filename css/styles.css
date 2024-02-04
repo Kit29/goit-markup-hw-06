@@ -1343,6 +1343,13 @@ margin-bottom: 72px;
              /* max-width: 1440px; */
             background-position: center;
       }
+      @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 2ddpx),
+      (min-resolution: 192dpi) {
+          .heror {
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-tab2x.jpg);
+          }
+      }
  .overlay {
     display: none;
  }
@@ -1816,6 +1823,13 @@ margin-bottom: 40px;
          /* max-width: 1440px; */
         background-position: center;
     }
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2ddpx),
+    (min-resolution: 192dpi) {
+        .heror {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob2x.jpg);
+        }
+    }
     .overlay {
         display: none;
      }
@@ -2097,7 +2111,7 @@ color: #4D5AE5;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peo.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpeg);
         height: 600px;
         flex-shrink: 0;
         background-repeat: no-repeat;
@@ -2108,6 +2122,13 @@ color: #4D5AE5;
         max-width: 1440px; 
         background-position: center;
         margin: 0 auto; 
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 2ddpx),
+    (min-resolution: 192dpi) {
+        .heror {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office2x.jpeg);
+        }
     }
     ul, ol {
         margin-top: 0;
